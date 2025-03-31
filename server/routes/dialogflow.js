@@ -21,6 +21,7 @@ const sessionPath = sessionClient.sessionPath(projectId, sessionId);
 router.post('/textQuery', async (req, res) => {
     //We need to send some information that comes from the client to Dialogflow API
     // The text query request.
+    //ddd
     const request = {
         session: sessionPath,
         queryInput: {
