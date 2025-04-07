@@ -12,3 +12,6 @@ yarn-error.log*
 
 dev.js
 ./server/config/dev.js
+
+server/config/*.json
+*.json
